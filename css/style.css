@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(254, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 0, 0, 1) 0%,
+    rgba(0, 17, 255, 1) 50%,
+    rgba(9, 255, 0, 1) 100%
+  );
+}
+
+h1 {
+  text-align: center;
+  font-family: system-ui;
+  margin: 50px 0px;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
+}
